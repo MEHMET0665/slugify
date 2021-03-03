@@ -1,0 +1,5 @@
+var slugify = require('slugify')
+const text1=slugify(' file contains all known characters and their transliteration ')
+const text2=slugify(' file contains all known characters and their transliteration ','*')
+console.log(text1)
+console.log(text2)
